@@ -17,31 +17,31 @@ const Whydatainsider = () => {
                     </div>
                     <div className={styles.WhydatainsiderGridItemContent}>
                         <h1 className={styles.WhydatainsiderGridItemTitle}>Mais acertividade na tomada de decisão</h1>
-                        <p className={styles.WhydatainsiderGridItemText}>Com todas as informações da sua operação a sua disposição fica bem mais facil liderar</p>
+                        <p className={styles.WhydatainsiderGridItemText}>Com o uso de ferramentas e técnicas de BI, a sua empresa pode obter insights mais precisos e confiáveis a partir de seus dados, o que ajuda a tomar decisões com embasamento e mais acertivas.</p>
                     </div>
                 </div>
 
                 <div className={styles.WhydatainsiderGridItem}>
                     <div className={styles.WhydatainsiderGridItemIcon}>
                         <span class="material-symbols-outlined">
-                            insights
+                            query_stats
                         </span>
                     </div>
                     <div className={styles.WhydatainsiderGridItemContent}>
-                        <h1 className={styles.WhydatainsiderGridItemTitle}>Facil acesso a informação</h1>
-                        <p className={styles.WhydatainsiderGridItemText}>Com dashboards dedicados para cada setor, o acesso a informação fica rapido e simples</p>
+                        <h1 className={styles.WhydatainsiderGridItemTitle}>Identificação de oportunidades de negócio</h1>
+                        <p className={styles.WhydatainsiderGridItemText}>A implementação de um sistema de BI pode ajudar a identificar oportunidades de negócio que antes não eram visíveis, permitindo que a empresa crie estratégias para aproveitá-las.</p>
                     </div>
                 </div>
 
                 <div className={styles.WhydatainsiderGridItem}>
                     <div className={styles.WhydatainsiderGridItemIcon}>
-                    <span class="material-symbols-outlined">
-                        attach_money
-                    </span>
+                        <span class="material-symbols-outlined">
+                            groups
+                        </span>
                     </div>
                     <div className={styles.WhydatainsiderGridItemContent}>
-                        <h1 className={styles.WhydatainsiderGridItemTitle}>Facilite o controle financeiro</h1>
-                        <p className={styles.WhydatainsiderGridItemText}>Nosso sistema proporciona mais precisão na entrega dos dados, assim evitando possiveis erros humanos</p>
+                        <h1 className={styles.WhydatainsiderGridItemTitle}>Melhor relacionamento com o cliente</h1>
+                        <p className={styles.WhydatainsiderGridItemText}>Com o uso de BI, a empresa pode obter insights sobre as preferências e necessidades de seus clientes, permitindo que a empresa forneça produtos e serviços mais personalizados e relevantes.</p>
                     </div>
                 </div>
 
@@ -52,8 +52,8 @@ const Whydatainsider = () => {
                         </span>
                     </div>
                     <div className={styles.WhydatainsiderGridItemContent}>
-                        <h1 className={styles.WhydatainsiderGridItemTitle}>Cresça com consistencia</h1>
-                        <p className={styles.WhydatainsiderGridItemText}>Nosso sistema se expande de acordo com o seu negocio, gerando uma gestão altamente escalavel</p>
+                        <h1 className={styles.WhydatainsiderGridItemTitle}>Maior eficiência operacional</h1>
+                        <p className={styles.WhydatainsiderGridItemText}>A análise de dados pode ajudar a empresa a identificar processos ineficientes ou gargalos, permitindo que a empresa os melhore ou os elimine.</p>
                     </div>
                 </div>
 
