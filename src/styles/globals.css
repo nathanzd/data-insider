@@ -15,7 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+main{
+  background-color: white;
+}
 body {
   font-family: 'Roboto';
 }
