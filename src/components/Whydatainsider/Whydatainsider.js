@@ -58,6 +58,9 @@ const Whydatainsider = () => {
                 </div>
 
             </div>
+            <div className={styles.TextAndImageButtonWrapper}>
+                <button className={styles.TextAndImageButton}>Solicite uma demostração</button>
+            </div>
         </div>
     </div>
   )

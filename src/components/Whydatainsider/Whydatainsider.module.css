@@ -46,3 +46,24 @@
         grid-template-columns: 1fr;
     }
   }
+
+  .TextAndImageButtonWrapper{
+    display: flex;
+    justify-content: center;
+}
+.TextAndImageButton{
+    font-weight: bold;
+    margin: 15px 15px;
+    color: white;
+    background-color:#009ADA ;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    transition: all ease 0.4s;
+}
+.TextAndImageButton:hover{
+    transition: all ease 0.4s;
+    background-color: transparent;
+    color: #009ADA;
+
+}
