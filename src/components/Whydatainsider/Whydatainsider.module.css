@@ -9,6 +9,7 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 30px;
 }
 .WhydatainsiderGrid{
     display: grid;
@@ -39,3 +40,8 @@
     font-size: 25px;
     font-weight: bold;
 }
+@media (max-width: 707px) {
+    .WhydatainsiderGrid{
+        grid-template-columns: 1fr;
+    }
+  }

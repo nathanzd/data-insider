@@ -41,17 +41,19 @@ const HeaderPower = () => {
         </div>
         <div className={styles.headerMenuWrapper}>
           <ul className={styles.headerMenu}>
-            <li>Projetos</li>
-            <li>Sobre</li>
-            <li>Serviços</li>
+            <li>Soluções</li>
+            <li>Quem Somos</li>
+            <li>Demonstrações</li>
+            <li>Contato</li>
           </ul>
         </div>
       </div>
       <div className={styles.headerPowerMobileMenu} id="headerPowerMobileMenuID">
         <ul className={styles.headerPowerMobileMenuItems} >
-              <li>Projetos</li>
-              <li>Sobre</li>
-              <li>Serviços</li>
+              <li>Soluções</li>
+              <li>Quem Somos</li>
+              <li>Demonstrações</li>
+              <li>Contato</li>
         </ul>
       </div>
      </header>

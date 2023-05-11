@@ -66,9 +66,12 @@
   font-weight: bold;
   color: #000000
 }
-@media (max-width: 518px) {
+@media (max-width: 707px) {
+  .headerPowerMobileMenu{
+    padding: 10px;
+  }
   .headerPower{
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .headerMenu{
     display: none;
@@ -80,6 +83,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 25%;
+    
+  }
+  .headerMenuWrapper{
+    display: none;
   }
 }
