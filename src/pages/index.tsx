@@ -5,6 +5,7 @@ import InitialBanner from '../components/InitialBanner/InitialBanner'
 import TextAndImage from '../components/TextAndImage/TextAndImage'
 import NumbersBanner from '../components/numbersBanner/NumbersBanner'
 import Whydatainsider from '../components/Whydatainsider/Whydatainsider'
+import RodapePower from '../components/rodapePower/RodapePower'
 
 // Content
 import ImageForTextAndImage from '../img/ImageForTextAndImage.png'
@@ -15,11 +16,12 @@ export default function Home() {
     <main >
       <Dependences/>
       <HeaderPower/>
-      <div className='spacer' style={{height:'10vh'}}></div>
+      <div className='spacer' ></div>
       <InitialBanner/>
       <TextAndImage text={TextForTextAndImage} image={ImageForTextAndImage.src} />
       <NumbersBanner/>
       <Whydatainsider/>
+      <RodapePower/>
       
     </main>
   )

@@ -1,0 +1,62 @@
+.RodapePower{
+    display: flex;
+    align-items: center;
+    gap:10%
+}
+.RodapePowerWrapper{
+    background-color: #009ADA;
+    padding: 30px;
+}
+.RodapePowerTitle{
+    font-weight: bold;
+    color: white;
+}
+.RodapePower{
+    margin: 0px 30px;
+}
+.RodapePowerMenuPrincipalLista li {
+    color:white;
+    
+    list-style: none;
+    padding: 5px;
+}
+.RodapePowerRedes{
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid #505050;
+    padding: 10px;
+    gap:5px;
+}
+.RodapePowerMenuInstitucional{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.RodapePowerMenuInstitucional p {
+    font-size: 14px;
+}
+.RodapePowerMenuInstitucional ul{
+    display: flex;
+}
+.RodapePowerMenuInstitucional ul li {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+@media (max-width: 624px) {
+    .RodapePowerMenuInstitucional p{
+        font-size: 12px;
+    }
+    .RodapePowerMenuInstitucional ul li {
+        font-size: 12px;
+    }
+}
+@media (max-width: 450px) {
+    .RodapePowerMenuInstitucional p{
+        font-size: 10px;
+    }
+    .RodapePowerMenuInstitucional ul li {
+        font-size: 10px;
+    }
+}

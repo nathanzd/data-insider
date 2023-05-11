@@ -19,3 +19,14 @@
 body {
   font-family: 'Roboto';
 }
+li{
+  font-size: 14px;
+}
+.spacer{
+  height: 10vh;
+}
+@media (max-width: 450px) {
+  .spacer{
+    height: 12vh;
+  }
+}
