@@ -1,0 +1,38 @@
+.NumbersBannerWrapper{
+    background-color: #009ADA;
+    padding: 25px;
+    padding-bottom: 35px;
+}
+.NumbersBanner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #009ADA;
+    color: white;
+    padding: 10px;
+    
+}
+.NumberTitleTitle2{
+    background-color:#009ADA;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.NumberTitle{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.NumbersText{
+    text-align: center;
+}
+@media (max-width: 707px) {
+    .NumbersBanner{
+        flex-direction: column;
+    }
+    .NumbersText{
+        padding-bottom: 30px;
+    }
+}

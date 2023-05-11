@@ -1,0 +1,85 @@
+.headerPowerWrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.headerPower{
+  background-color: white;
+  padding: 10px 10px;
+  -webkit-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.25);
+  justify-content: space-around;
+  position: fixed;
+  top:0;
+  width: 100%;
+  border-top:10px solid #009ADA;
+  
+}
+.headerLogoWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerLogo{
+  width: 200px;
+}
+.headerMenuWrapper{
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerMenu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+.headerMenu li {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 20px;
+  list-style: none;
+  transition: all ease 0.4s;
+  color: #000000
+}
+.headerMenu li:hover{
+  /*border-bottom: 1px solid #009ADA;*/
+  color:#009ADA
+}
+.headerHamburgerIcon{
+  display: none;
+}
+.headerPowerMobileMenu{
+  transition: all ease 2s;
+  width: 100%;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  
+  
+  align-items: center;
+}
+.headerPowerMobileMenuItems li{
+  list-style: none;
+  padding:5px 0px;
+  font-weight: bold;
+  color: #000000
+}
+@media (max-width: 518px) {
+  .headerPower{
+    justify-content: space-between;
+  }
+  .headerMenu{
+    display: none;
+  }
+  .headerLogoWrapper{
+
+  }
+  .headerHamburgerIcon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 25%;
+  }
+}

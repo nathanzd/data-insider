@@ -1,0 +1,41 @@
+.WhydatainsiderWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-top:100px;
+}
+.WhydatainsiderText{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.WhydatainsiderGrid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.WhydatainsiderGridItem{
+    display: flex;
+    padding: 15px;
+}
+
+.WhydatainsiderGridItemIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WhydatainsiderGridItemIcon span{
+    font-size: 35px;
+    font-weight: bold;
+    color: #009ADA;
+}
+.WhydatainsiderGridItemContent{
+    margin-left: 15px;
+}
+.WhydatainsiderGridItemContent h1{
+    font-size: 25px;
+    font-weight: bold;
+}

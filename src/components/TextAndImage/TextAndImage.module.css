@@ -1,0 +1,35 @@
+.TextAndImage{
+    margin-top: 30px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TextAndImageImage{
+    width: 100%;
+}
+.TextAndImageButtonWrapper{
+    display: flex;
+    justify-content: center;
+}
+.TextAndImageButton{
+    font-weight: bold;
+    margin: 15px 15px;
+    color: white;
+    background-color:#009ADA ;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    transition: all ease 0.4s;
+}
+.TextAndImageButton:hover{
+    transition: all ease 0.4s;
+    background-color: transparent;
+    color: #009ADA;
+
+}
+@media (max-width: 707px) {
+    .TextAndImage{
+        flex-direction: column;
+    }
+  }
