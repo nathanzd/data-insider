@@ -4,7 +4,7 @@ let BlueSpanText={
 }
 
 export const TextForTextAndImage=<div>
-    <h1 style={{fontSize:'30px',fontWeight:'bold'}}>Conheça a Data <span style={BlueSpanText}>INSIDE</span></h1>
+    <h1 style={{fontSize:'30px',fontWeight:'bold'}}>Conheça a Data <span style={BlueSpanText}>INSIDER</span></h1>
         <p style={{margin:'10px 5px'}}>
         A Data Insider é uma consultoria de Business Intelligence que ajuda empresas a 
         aproveitarem ao máximo seus dados. Com soluções personalizadas e técnicas avançadas de 
@@ -14,6 +14,6 @@ export const TextForTextAndImage=<div>
        
           </p>
           <div className={styles.TextAndImageButtonWrapper}>
-                <button className={styles.TextAndImageButton}>Solicite uma demostração</button>
+          <a href='/contato'><button className={styles.TextAndImageButton}>Solicite uma demostração</button></a>
             </div>
 </div>

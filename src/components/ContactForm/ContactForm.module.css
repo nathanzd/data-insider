@@ -46,8 +46,31 @@
     background-color: #009ADA;
     border-radius: 10px;
 }
+.contactIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+
+}
+.ContactIconsItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+.ContactIconsItem p{
+    margin: 10px;
+}
 @media (max-width: 707px) {
     .ContactFormWrapper{
         flex-direction: column;
+    }
+    .contactIcons{
+        margin: 15px 20px;
+        flex-direction: column;
+    }
+    .ContactIconsItem{
+        margin: 15px;
     }
   }

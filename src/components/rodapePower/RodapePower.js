@@ -6,28 +6,38 @@ const RodapePower = () => {
   return (
     <div>
         <div className={styles.RodapePowerWrapper}>
-            <div className={styles.RodapePower}>
-                <div className={styles.RodapePowerMenuPrincipal}>
-                    
-                    <h1 className={styles.RodapePowerTitle}>Menu</h1>
-                    <ul className={styles.RodapePowerMenuPrincipalLista}>
-                        <li>Soluções</li>
-                        <li>Quem Somos</li>
-                        <li>Demonstrações</li>
-                        <li>Contato</li>
-                    </ul>
-                </div>
+            <div className={styles.RodapePowerMenu}>
+                <div className={styles.RodapePower}>
+                    <div className={styles.RodapePowerMenuPrincipal}>
+                        
+                        <h1 className={styles.RodapePowerTitle}>Menu</h1>
+                        <ul className={styles.RodapePowerMenuPrincipalLista}>
+                            <a href='/solutions'><li>Soluções</li></a>
+                            <a href='/quemsomos'><li>Quem Somos</li></a>
+                            <a href='/demonstration'><li>Demonstrações</li></a>
+                            <a href='/contato'><li>Contato</li></a>
+                        </ul>
+                    </div>
 
-                <div className={styles.RodapePowerMenuPrincipal}>
-                    
-                    <h1 className={styles.RodapePowerTitle}>Menu</h1>
-                    <ul className={styles.RodapePowerMenuPrincipalLista}>
-                        <li>Soluções</li>
-                        <li>Quem Somos</li>
-                        <li>Demonstrações</li>
-                        <li>Contato</li>
-                    </ul>
+                    <div className={styles.RodapePowerMenuPrincipal}>
+                        
+                        <h1 className={styles.RodapePowerTitle}>Menu</h1>
+                        <ul className={styles.RodapePowerMenuPrincipalLista}>
+                            <a href='/solutions'><li>Soluções</li></a>
+                            <a href='/quemsomos'><li>Quem Somos</li></a>
+                            <a href='/demonstration'><li>Demonstrações</li></a>
+                            <a href='/contato'><li>Contato</li></a>
+                        </ul>
+                    </div>
                 </div>
+                <div className={styles.RodapePowerMenuPrincipal}>
+                        
+                        <p style={{color:'white',fontSize:'14px',marginTop:'15px'}}>
+                           Whatsapp: (11) 99999-9999<br/>
+                           Email: contato@datainsider.com.br<br/>
+                            Arujá Centro
+                        </p>
+                    </div>
 
                 
                 

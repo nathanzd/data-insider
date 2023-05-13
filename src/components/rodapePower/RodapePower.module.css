@@ -1,7 +1,10 @@
 .RodapePower{
     display: flex;
     align-items: center;
-    gap:10%
+    gap:25%
+}
+.RodapePowerMenuPrincipal{
+   
 }
 .RodapePowerWrapper{
     background-color: #009ADA;
@@ -45,12 +48,22 @@
     padding-right:10px;
 }
 
+.RodapePowerMenu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 @media (max-width: 624px) {
     .RodapePowerMenuInstitucional p{
         font-size: 12px;
     }
     .RodapePowerMenuInstitucional ul li {
         font-size: 12px;
+    }
+    .RodapePowerMenu{
+        display: flex;
+        flex-direction: column;
     }
 }
 @media (max-width: 450px) {

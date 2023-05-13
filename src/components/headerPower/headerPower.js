@@ -22,7 +22,7 @@ const HeaderPower = () => {
     <header className={styles.headerPower}>
       <div className={styles.headerPowerWrapper}>
         <div className={styles.headerLogoWrapper}>
-          <img className={styles.headerLogo} src={logotipo.src} alt='logotipo'/>
+          <a href='/'><img className={styles.headerLogo} src={logotipo.src} alt='logotipo'/></a>
         </div>
         <div onClick={TogglePowerHeaderMenu} className={styles.headerHamburgerIcon} id={styles.headerHamburgerIcon}>
         
@@ -41,19 +41,19 @@ const HeaderPower = () => {
         </div>
         <div className={styles.headerMenuWrapper}>
           <ul className={styles.headerMenu}>
-            <li>Soluções</li>
-            <li>Quem Somos</li>
-            <li>Demonstrações</li>
-            <li>Contato</li>
+            <a href='/solutions'><li>Soluções</li></a>
+            <a href='/quemsomos'><li>Quem Somos</li></a>
+            <a href='/demonstration'><li>Demonstrações</li></a>
+            <a href='/contato'><li>Contato</li></a>
           </ul>
         </div>
       </div>
       <div className={styles.headerPowerMobileMenu} id="headerPowerMobileMenuID">
         <ul className={styles.headerPowerMobileMenuItems} >
-              <li>Soluções</li>
-              <li>Quem Somos</li>
-              <li>Demonstrações</li>
-              <li>Contato</li>
+              <a href='/solutions'><li>Soluções</li></a>
+              <a href='/quemsomos'><li>Quem Somos</li></a>
+              <a href='/demonstration'><li>Demonstrações</li></a>
+              <a href='/contato'><li>Contato</li></a>
         </ul>
       </div>
      </header>
