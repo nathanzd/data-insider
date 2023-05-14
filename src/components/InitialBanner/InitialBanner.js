@@ -1,6 +1,6 @@
 import React from 'react'
-import banner from '../../img/InitialBanner4.jpg'
-import bannerMobile from '../../img/InitialBanner4Mobile.jpg'
+import banner from '../../img/InitialBanner5.jpg'
+import bannerMobile from '../../img/InitialBanner4Mobile1.jpg'
 import styles from './InitialBanner.module.css'
 const InitialBanner = () => {
   return (
