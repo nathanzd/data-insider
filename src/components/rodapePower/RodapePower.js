@@ -10,7 +10,7 @@ const RodapePower = () => {
                 <div className={styles.RodapePower}>
                     <div className={styles.RodapePowerMenuPrincipal}>
                         
-                        <h1 className={styles.RodapePowerTitle}>Menu</h1>
+                        <h1 className={styles.RodapePowerTitle}>Empresa</h1>
                         <ul className={styles.RodapePowerMenuPrincipalLista}>
                             <a href='/solutions'><li>Soluções</li></a>
                             <a href='/quemsomos'><li>Quem Somos</li></a>
@@ -21,7 +21,7 @@ const RodapePower = () => {
 
                     <div className={styles.RodapePowerMenuPrincipal}>
                         
-                        <h1 className={styles.RodapePowerTitle}>Menu</h1>
+                        <h1 className={styles.RodapePowerTitle}>Soluções</h1>
                         <ul className={styles.RodapePowerMenuPrincipalLista}>
                             <a href='/solutions'><li>Soluções</li></a>
                             <a href='/quemsomos'><li>Quem Somos</li></a>

@@ -1,3 +1,16 @@
 .initialBannerImage{
     width:100%;
 }
+.initialBannerImageMobile{
+    display: none;
+}
+@media (max-width: 500px) {
+    .initialBannerImage{
+        width:100%;
+        display: none;
+    }
+    .initialBannerImageMobile{
+        display: block;
+        width:100%
+    }
+}
