@@ -1,7 +1,9 @@
+import TextAndImage from "@/components/TextAndImage/TextAndImage"
 export default function Solutions() {
     return (
       <main >
-        <h1>Em construção</h1>
+       <div className='spacer' ></div>
+        
     
       </main>
     )
