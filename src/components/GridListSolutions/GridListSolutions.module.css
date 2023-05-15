@@ -1,0 +1,46 @@
+
+.GridListSolutionsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GridListSolutions{
+
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap:20px
+}
+.GridListSolutionsItem{
+    margin: 20px 20px;
+    border: 1px solid #505050;
+    border-radius: 15px;
+    height: 300px;
+    padding: 15px 30px;
+    box-shadow: #505050 5px 5px 2px;
+    transition: all ease 0.6s;
+}
+.GridListSolutionsItem:hover{
+    box-shadow: #009ADA 5px 5px 2px;
+}
+.GridListSolutionsItemList ul li{
+    list-style:inside;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.GridListSolutionsItemTitle h2{
+    font-size: 21px;
+    font-weight: bold;
+    color: #009ADA;
+}
+
+@media (max-width: 707px){
+    .GridListSolutions{
+        grid-template-columns: 1fr 1fr  ;
+    }
+}
+@media (max-width: 490px){
+    .GridListSolutions{
+        grid-template-columns: 1fr   ;
+    }
+}
