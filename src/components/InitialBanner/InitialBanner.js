@@ -6,7 +6,7 @@ import styles from './InitialBanner.module.css'
 const InitialBanner = () => {
   return (
     <div className={styles.initialBanner}>
-        <img className={styles.initialBannerImage} src={Banner.src} alt='banner'/>
+        <img className={styles.initialBannerImage} src="https://github.com/nathanzd/data-insider/blob/main/src/img/Initial.jpg?raw=true" alt='banner'/>
         <img className={styles.initialBannerImageMobile} src={bannerMobile.src} alt='banner'/>
 
     </div>
