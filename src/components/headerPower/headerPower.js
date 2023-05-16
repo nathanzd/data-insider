@@ -1,6 +1,7 @@
 import logotipo from '../../img/logotipo.png'
 import { useState } from 'react'
 import styles from '@/components/headerPower/headerPower.module.css'
+import Dependences from '../dependences/dependences'
 
 const HeaderPower = () => {
   const [menu,setMenu]=useState(0)
@@ -20,6 +21,7 @@ const HeaderPower = () => {
  
   return (
     <header className={styles.headerPower}>
+      <Dependences/>
       <div className={styles.headerPowerWrapper}>
         <div className={styles.headerLogoWrapper}>
           <a href='/'><img className={styles.headerLogo} src={logotipo.src} alt='logotipo'/></a>
