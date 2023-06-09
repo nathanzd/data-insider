@@ -41,7 +41,7 @@ export default function Demonstration() {
 
             </p>
           </div>
-          <iframe title="Report Section"  height="473.5" src="https://app.powerbi.com/view?r=eyJrIjoiYWQzOWIyZTItY2Y2MS00OTAzLWE1ZDAtNWZlMDYyMzZlNzJiIiwidCI6ImI5ZGY4YjEzLTE2NjgtNDlkYS04NDA4LTc1NzVlMjQ2MDIwNCJ9" frameborder="0" allowFullScreen="true"></iframe>
+          <iframe title="Report Section"  height="473.5" src="https://app.powerbi.com/view?r=eyJrIjoiYWQzOWIyZTItY2Y2MS00OTAzLWE1ZDAtNWZlMDYyMzZlNzJiIiwidCI6ImI5ZGY4YjEzLTE2NjgtNDlkYS04NDA4LTc1NzVlMjQ2MDIwNCJ9" frameBorder={0} allowFullScreen={true}></iframe>
         </div>
         <RodapePower/>
       </main>
