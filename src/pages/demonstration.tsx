@@ -14,9 +14,9 @@ export default function Demonstration() {
       
         <div className="relatorio">
           <div className="demonstrationResume" style={{gap:'20px'}}>
-            <h1 style={{fontSize:'30px',fontWeight:'bold'}}>Concessionária</h1>
-            <p>
-              Com dedicação e expertise, desenvolvemos este painel de controle com
+            <h1 style={{fontSize:'30px',fontWeight:'bold',color:"#303030;"}}>Concessionária</h1>
+            <p style={{color:"#303030;"}}>
+              Desenvolvemos este painel de controle com
                a finalidade específica de proporcionar uma experiência aprimorada na
                 visualização dos relatórios de vendas e uma ampla gama de informações
                  operacionais vitais para uma concessionária de veículos. Nosso compromisso
@@ -29,8 +29,8 @@ export default function Demonstration() {
         </div>
         <div  className="relatorioInvertido">
           <div className="demonstrationResume" style={{gap:'20px'}}>
-            <h1 style={{fontSize:'30px',fontWeight:'bold'}}>Rede de estabelecimentos</h1>
-            <p>
+            <h1 style={{fontSize:'30px',fontWeight:'bold',color:"#303030;"}}>Rede de estabelecimentos</h1>
+            <p style={{color:"#303030;"}}>
             O objetivo central deste painel é fornecer uma visão abrangente e simplificada
              das operações comerciais da empresa, permitindo uma análise detalhada e eficiente
               do desempenho em todos os seus estabelecimentos. Com a ajuda deste painel, é possível
@@ -42,6 +42,9 @@ export default function Demonstration() {
             </p>
           </div>
           <iframe title="Report Section"  height="473.5" src="https://app.powerbi.com/view?r=eyJrIjoiYWQzOWIyZTItY2Y2MS00OTAzLWE1ZDAtNWZlMDYyMzZlNzJiIiwidCI6ImI5ZGY4YjEzLTE2NjgtNDlkYS04NDA4LTc1NzVlMjQ2MDIwNCJ9" frameBorder={0} allowFullScreen={true}></iframe>
+        </div>
+        <div className="TextAndImageButtonWrapper">
+          <a href='/contato'><button className="TextAndImageButton">Solicite uma demostração</button></a>
         </div>
         <RodapePower/>
       </main>

@@ -3,12 +3,14 @@
     flex-direction: column;
     padding: 10px 30px;
     align-items: center;
+    color:#303030
     
 }
 .ContactFormTitle{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    color:#303030
 }
 .ContactFormText{
     /*text-align: center;*/

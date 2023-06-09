@@ -13,8 +13,11 @@ export default function Solutions() {
        <div className='spacer' ></div>
        
       <TextAndImage text={TextForTextAndImage} image={IlustrationImage.src}/>
-      <GridListSolutions/>
-      <ImplementationExplanationComponent/>
+      <div style={{padding:'0px 2%'}}>
+        <GridListSolutions/>
+        <ImplementationExplanationComponent/>
+      </div>
+      
       <RodapePower/>
       </main>
     )

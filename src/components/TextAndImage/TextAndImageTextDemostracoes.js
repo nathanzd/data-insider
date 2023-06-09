@@ -4,8 +4,8 @@ let BlueSpanText={
 }
 // <a href='/contato'><button className={styles.TextAndImageButton}>Saiba mais</button></a>
 export const TextForTextAndImage=<div>
-    <h1 style={{fontSize:'30px',fontWeight:'bold'}}>Conheça alguns <span style={BlueSpanText}>indicadores</span></h1>
-        <p style={{margin:'10px 5px'}}>
+    <h1 style={{fontSize:'30px',fontWeight:'bold',color:'#303030'}}>Conheça alguns <span style={BlueSpanText}>indicadores</span></h1>
+        <p style={{margin:'10px 5px',color:'#303030'}}>
         Venha conhecer de forma prática o funcionamento dos nossos dashboards
          e como eles aprimoram a visualização e gestão do seu negócio. Todas essas demonstrações
           de painéis são apenas exemplos para referência. O painel de controle será desenvolvido

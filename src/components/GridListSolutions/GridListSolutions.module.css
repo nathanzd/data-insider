@@ -13,11 +13,11 @@
 }
 .GridListSolutionsItem{
     margin: 20px 20px;
-    border: 1px solid #505050;
+    border: 2px solid #009ADA;
     border-radius: 15px;
     height: 300px;
     padding: 15px 30px;
-    box-shadow: #505050 5px 5px 2px;
+    box-shadow: #505050 2px 2px 5px;
     transition: all ease 0.6s;
 }
 .GridListSolutionsItem:hover{
@@ -25,7 +25,7 @@
 }
 .GridListSolutionsItemList ul li{
     list-style:inside;
-    
+    color:#303030;
     margin-left: 5px;
     font-size: 16px;
 }

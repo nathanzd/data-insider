@@ -40,10 +40,12 @@
 .WhydatainsiderGridItemContent h1{
     font-size: 18px;
     font-weight: bold;
+    color:#303030;
 }
 .WhydatainsiderGridItemContent2 h1{
     font-size: 25px;
     font-weight: bold;
+    color:#303030;
 }
 @media (max-width: 707px) {
     .WhydatainsiderGrid{

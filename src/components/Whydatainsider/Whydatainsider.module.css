@@ -7,6 +7,7 @@
     margin-bottom: 60px;
 }
 .WhydatainsiderText{
+    color:#303030; /*#303030*/ /*#303030*/
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -40,6 +41,7 @@
 .WhydatainsiderGridItemContent h1{
     font-size: 25px;
     font-weight: bold;
+    color:#303030;
 }
 @media (max-width: 707px) {
     .WhydatainsiderGrid{

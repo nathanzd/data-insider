@@ -8,10 +8,10 @@ const ImplementationExplanationComponent = () => {
             <div className={styles.ImplementationExplanationComponent}>
                 <div style={{margin:'20px 20px'}}>
                     <div className={styles.ImplementationTitle}>
-                        <h1 style={{fontSize:'30px',fontWeight:'bold'}}>Implementação do sistema</h1>
+                        <h1 style={{fontSize:'30px',fontWeight:'bold',color:'#303030'}}>Implementação do sistema</h1>
                     </div>
                     <div className={styles.ImplementationSubtitle}>
-                        <p>
+                        <p style={{color:'#303030'}}>
                         Ao compreender as necessidades específicas da empresa, procedemos com a implementação do sistema de acordo com os seguintes processos
                        <br/><br/>
 
