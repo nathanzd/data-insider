@@ -38,6 +38,10 @@
     margin-left: 15px;
 }
 .WhydatainsiderGridItemContent h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.WhydatainsiderGridItemContent2 h1{
     font-size: 25px;
     font-weight: bold;
 }

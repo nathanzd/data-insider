@@ -23,10 +23,10 @@ const RodapePower = () => {
                         
                         <h1 className={styles.RodapePowerTitle}>Soluções</h1>
                         <ul className={styles.RodapePowerMenuPrincipalLista}>
-                            <a href='/solutions'><li>Soluções</li></a>
-                            <a href='/quemsomos'><li>Quem Somos</li></a>
-                            <a href='/demonstration'><li>Demonstrações</li></a>
-                            <a href='/contato'><li>Contato</li></a>
+                            <a href='/solutions#solutions'><li>Coleta de dados</li></a>
+                            <a href='/solutions#solutions'><li>Visualização de dados</li></a>
+                            <a href='/solutions#solutions'><li>Business intelligence</li></a>
+
                         </ul>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const RodapePower = () => {
                         <p style={{color:'white',fontSize:'14px',marginTop:'15px'}}>
                            Whatsapp: (11) 99999-9999<br/>
                            Email: contato@datainsider.com.br<br/>
-                            Arujá Centro
+                            
                         </p>
                     </div>
 

@@ -5,9 +5,9 @@ const GridListSolutions = () => {
   return (
     <div>
         <div className={styles.GridListSolutionsWrapper}>
-            <div className={styles.GridListSolutions}>
+            <div className={styles.GridListSolutions} id='solutions'>
 
-                <div className={styles.GridListSolutionsItem}>
+                <div className={styles.GridListSolutionsItem} id='coletadedados'>
                     <div className={styles.GridListSolutionsItemTitle}>
                         <h2>Coleta de dados</h2>
                     </div>
@@ -22,7 +22,7 @@ const GridListSolutions = () => {
                     </div>
                 </div>
 
-                <div className={styles.GridListSolutionsItem}>
+                <div className={styles.GridListSolutionsItem} id='visualizacaodedados' >
                     <div className={styles.GridListSolutionsItemTitle}>
                         <h2>Visualização de dados</h2>
                     </div>
@@ -36,7 +36,7 @@ const GridListSolutions = () => {
                     </div>
                 </div>
 
-                <div className={styles.GridListSolutionsItem}>
+                <div className={styles.GridListSolutionsItem} id='businessintelligence'>
                     <div className={styles.GridListSolutionsItemTitle}>
                         <h2>Business Intelligence</h2>
                     </div>

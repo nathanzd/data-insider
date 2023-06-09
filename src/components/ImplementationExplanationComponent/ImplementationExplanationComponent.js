@@ -8,11 +8,29 @@ const ImplementationExplanationComponent = () => {
             <div className={styles.ImplementationExplanationComponent}>
                 <div style={{margin:'20px 20px'}}>
                     <div className={styles.ImplementationTitle}>
-                        <h1 style={{fontSize:'30px',fontWeight:'bold'}}>Conheça um pouco sobre a implementação do nosso sistema</h1>
+                        <h1 style={{fontSize:'30px',fontWeight:'bold'}}>Implementação do sistema</h1>
                     </div>
                     <div className={styles.ImplementationSubtitle}>
                         <p>
-                            Descrição de como funciona a implementação e funcionamento do sistema
+                        Ao compreender as necessidades específicas da empresa, procedemos com a implementação do sistema de acordo com os seguintes processos
+                       <br/><br/>
+
+                        <b>Extração e integração de dados:</b> Uma vez que os requisitos são estabelecidos, o próximo passo é extrair dados de
+                         várias fontes de dados internas e externas à organização, como bancos de dados operacionais, planilhas, arquivos CSV,
+                         sistemas de CRM, ERP, entre outros
+                         <br/><br/>
+                        <b>Transformação e limpeza de dados:</b>
+                        Os dados extraídos podem estar em formatos diferentes e não estruturados. Nesta etapa, os dados são transformados e limpos para garantir a consistência, qualidade e padronização.
+                        <br/><br/>
+                        <b>Modelagem e design:</b>
+                        Nesta etapa, é criado um modelo de dados que representa as relações entre os diferentes elementos de informação. Isso pode envolver a criação de tabelas, dimensões,
+                         hierarquias e relacionamentos para facilitar análises eficientes. 
+                        <br/><br/>
+
+                        <b>Análise e visualização:</b> Permitir que os usuários explorem e analisem os dados usando ferramentas de consulta e visualização.
+                        <br/><br/>
+                        <b>Distribuição e acesso:</b>
+                        A última etapa envolve disponibilizar as informações para os usuários finais de forma acessível. Isso pode ser feito por meio de painéis interativos online, relatórios automatizados enviados por e-mail ou acesso direto ao sistema de BI
                         </p>
                     </div>
                     <div className={styles.ImplementationTitle}>

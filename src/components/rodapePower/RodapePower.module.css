@@ -1,7 +1,12 @@
 .RodapePower{
     display: flex;
-    align-items: center;
-    gap:25%
+    padding-right: 20px;
+    
+}
+.RodapePower div{
+   margin-right: 20px;
+   
+    
 }
 .RodapePowerMenuPrincipal{
    
@@ -15,7 +20,7 @@
     color: white;
 }
 .RodapePower{
-    margin: 0px 30px;
+    /*margin: 0px 30px;*/
 }
 .RodapePowerMenuPrincipalLista li {
     color:white;
