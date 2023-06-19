@@ -15,7 +15,7 @@ const ContactForm = () => {
           <div>
           <form className={styles.ContactForm} action="https://api.staticforms.xyz/submit" method="post">
         
-              <input className={styles.ContactInput} type="hidden" name="accessKey" value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c"/> 
+              <input className={styles.ContactInput} type="hidden" name="accessKey" value="7a6f3dba-c285-4f4b-ae35-2afeac02dfa9"/> 
               <input className={styles.ContactInput} type="text" name="name" placeholder='Nome da sua empresa'/> 
               <input className={styles.ContactInput} type="text" name="email" placeholder='Email para contato'/> 
               <input className={styles.ContactInput} type="text" name="phone" placeholder='Telefone para contato'/> 
