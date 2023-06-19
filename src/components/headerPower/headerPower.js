@@ -5,6 +5,7 @@ import Dependences from '../dependences/dependences'
 
 const HeaderPower = () => {
   const [menu,setMenu]=useState(0)
+ 
   function TogglePowerHeaderMenu(){
     if(menu === 0){
       let headerMobileMenu = document.getElementById("headerPowerMobileMenuID")
@@ -19,12 +20,15 @@ const HeaderPower = () => {
 
   }
  
+  
   return (
     <header className={styles.headerPower}>
       <Dependences/>
       <div className={styles.headerPowerWrapper}>
         <div className={styles.headerLogoWrapper}>
-          <a href='/'><img className={styles.headerLogo} src={logotipo.src} alt='logotipo'/></a>
+          <a href='/'>{
+            <img className={styles.headerLogo} src={logotipo.src} alt='logotipo'/>
+          }</a>
         </div>
         <div onClick={TogglePowerHeaderMenu} className={styles.headerHamburgerIcon} id={styles.headerHamburgerIcon}>
         
@@ -58,6 +62,12 @@ const HeaderPower = () => {
               <a href='/contato'><li>Contato</li></a>
         </ul>
       </div>
+      <script>
+        
+        
+      const query = window.matchMedia('prefers-color-scheme: dark');
+      console.log(query)
+      </script>
      </header>
   )
 }
