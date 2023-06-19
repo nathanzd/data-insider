@@ -6,7 +6,7 @@ let BlueSpanText={
 export const TextForTextAndImage=<div>
     <h1 style={{fontSize:'30px',fontWeight:'bold',color:'#303030'}}>Conheça nossa <span style={BlueSpanText}>história</span></h1>
         <p style={{margin:'10px 5px',color:'#303030'}}>
-        A Data Insider foi estabelecida em 2023 com a finalidade de empregar 
+        A Data Hash foi estabelecida em 2023 com a finalidade de empregar 
         tecnologia avançada e <b>análise de dados</b> para oferecer <b>praticidade e confiabilidade </b>
           a empresas de diversos setores. Fundada por analistas com vasta experiência e apoiada
           por uma equipe especializada nas mais recentes tecnologias do mercado, buscamos fornecer

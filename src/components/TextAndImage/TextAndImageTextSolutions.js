@@ -11,7 +11,7 @@ export const TextForTextAndImage=<div>
         estratégicas baseadas em dados.<br/><br/> Desde análises avançadas até visualizações intuitivas,
         estamos aqui para fornecer soluções personalizadas que impulsionam seu sucesso. Veja
         o potencial oculto dos seus dados e leve sua empresa ao próximo patamar
-         com a Data Insider!
+         com a Data Hash!
        
           </p>
           <div className={styles.TextAndImageButtonWrapper}>

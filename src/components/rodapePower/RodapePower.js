@@ -33,8 +33,8 @@ const RodapePower = () => {
                 <div className={styles.RodapePowerMenuPrincipal}>
                         
                         <p style={{color:'white',fontSize:'14px',marginTop:'15px'}}>
-                           Whatsapp: (11) 99999-9999<br/>
-                           Email: contato@datainsider.com.br<br/>
+                           Whatsapp: (11) 99166-6153<br/>
+                           Email: contato@datahash.com.br<br/>
                             
                         </p>
                     </div>
@@ -57,10 +57,10 @@ const RodapePower = () => {
             
         </div>
         <div className={styles.RodapePowerMenuInstitucional} >
-                <p>Todos os direitos reservados Data Insider Ltda 2023®</p>
+                <p>Todos os direitos reservados Data Hash Ltda 2023®</p>
                 <ul>
                     <li>Politicas de privacidade</li>
-                    <li>Termos de uso</li>
+                    
                 </ul>
             </div>
     </div>

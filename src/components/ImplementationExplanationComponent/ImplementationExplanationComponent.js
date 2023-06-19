@@ -133,7 +133,7 @@ const ImplementationExplanationComponent = () => {
                             </div>
                             <div className={styles.WhydatainsiderGridItemContent}>
                                 <h1 className={styles.WhydatainsiderGridItemTitle}>Caso sua empresa não faça uso de algum dos serviços mencionados</h1>
-                                <p className={styles.WhydatainsiderGridItemText}> Na Data Insider, oferecemos, como parte de nossa consultoria em business intelligence,
+                                <p className={styles.WhydatainsiderGridItemText}> Na Data Hash, oferecemos, como parte de nossa consultoria em business intelligence,
                          a possibilidade de implementar um desses sistemas de acordo com as necessidades
                           específicas da sua organização.</p>
                             </div>
