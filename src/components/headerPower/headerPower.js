@@ -65,8 +65,7 @@ const HeaderPower = () => {
       <script>
         
         
-      const query = window.matchMedia('prefers-color-scheme: dark');
-      console.log(query)
+      
       </script>
      </header>
   )
